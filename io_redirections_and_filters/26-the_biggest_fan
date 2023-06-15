@@ -1,0 +1,2 @@
+#!/bin/bash
+tail -n +2 tsv | cut -fi | sort |unik -c | srt -nr tr -s " " -f3 | head -11  
